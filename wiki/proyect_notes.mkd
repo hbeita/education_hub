@@ -1,7 +1,7 @@
 ### App planning structure
 
 ```
-education_vault/
+education_hub/
 ├── public/
 │   └── index.html
 ├── src/
@@ -97,7 +97,13 @@ styles/
 Separate your layouts and pages (or views). Layouts are reusable across different pages, while pages are unique:
 
 ```
-Separate your layouts and pages (or views). Layouts are reusable across different pages, while pages are unique:
+layouts/
+└── MainLayout.tsx
+
+views/
+├── Home/
+├── About/
+└── Dashboard/
 ```
 
 ### Assets
@@ -110,3 +116,4 @@ assets/
 ├── fonts/
 └── icons/
 ```
+
